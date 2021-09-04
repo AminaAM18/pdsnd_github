@@ -31,7 +31,7 @@ def get_filters():
             while True:
                 month=input("Which month - January, February, March, April, May, or June?\n").lower()
                 while month not in ('january', 'february', 'march', 'april', 'may', 'june'):
-                    month=input('please enter a valid month name\n').lower()
+                    month=input('pleeeeeeeeease enter a valid month name\n').lower()
                 break
             day='all'
             break
@@ -40,7 +40,7 @@ def get_filters():
             while True:
                 day=input("Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?\n").lower()
                 while day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'Saturday', 'sunday'):
-                    day=input('please enter a valid day name\n').lower()
+                    day=input('pleeeeeeeeeease enter a valid day name\n').lower()
                 break
             month='all'
             break
@@ -49,7 +49,7 @@ def get_filters():
                 day='all'
                 break
         else:
-            print('invalid input, please enter a valid answer\n')
+            print('innnnnvalid input, pleeeeeease enter a valid answer\n')
     return city, month, day
 
     print('-'*40)
