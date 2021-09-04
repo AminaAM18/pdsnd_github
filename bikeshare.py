@@ -40,7 +40,7 @@ def get_filters():
             while True:
                 day=input("Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?\n").lower()
                 while day not in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'Saturday', 'sunday'):
-                    day=input('please enter a valid day name\n').lower()
+                    day=input('pleeeeeeeeeease enter a valid day name\n').lower()
                 break
             month='all'
             break
