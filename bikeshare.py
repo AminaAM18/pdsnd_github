@@ -31,7 +31,7 @@ def get_filters():
             while True:
                 month=input("Which month - January, February, March, April, May, or June?\n").lower()
                 while month not in ('january', 'february', 'march', 'april', 'may', 'june'):
-                    month=input('please enter a valid month name\n').lower()
+                    month=input('pleeeeeeeeease enter a valid month name\n').lower()
                 break
             day='all'
             break
