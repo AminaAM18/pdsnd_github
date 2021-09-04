@@ -21,7 +21,7 @@ def get_filters():
     while True:
         city= input('Would you like to see data for Chicago, New York city, or Washington?\n').lower()
         while city not in CITY_DATA:
-            city= input('Please enter a valid city name \n').lower()
+            city= input('Pleeeeeeeeease enter a valid city name \n').lower()
         break
 
     while True:
